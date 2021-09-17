@@ -1,0 +1,569 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.gap-4 {
+    gap: 4%;
+}
+nav {
+    width: 85%;
+    margin: 20px auto;
+    color: grey;
+    font-size: 30px;
+    font-weight: bold;
+} 
+
+nav .menu-icon {
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.landing-page {
+    background-image: url("../img/hero-bg.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 0 50px 100px;
+}
+
+.landing-text {
+    color: white;
+    width: 50%;
+}
+
+.landing-text h3 {
+    font-size: 4rem;
+    font-weight: lighter;
+}
+
+.landing-text h2 {
+    font-size: 7rem;
+    font-weight: bolder;
+}
+
+.landing-text hr {
+    border: 1px solid white;
+    height: 12px;
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.landing-text img {
+    height: 100px;
+    width: 80px;
+}
+
+.services-icons {
+    width: 80%;
+}
+
+.services-icons p {
+    margin-top: 10px;
+}
+
+.how-we-help {
+    background-color: gainsboro;
+    width: 100%;
+    height: 80vh;
+    padding-top: 120px;
+}
+
+.how-we-help-content{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.how-we-help-content h4 {
+    font-size: 1.2rem;
+    color: grey;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.how-we-help-content h3 {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 30px;
+
+}
+
+.how-we-help-content p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: center;
+
+}
+
+.how-we-help-content button {
+    background-color: rgb(221, 34, 34);
+    color: white;
+    width: 160px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+
+.need-help {
+    width: 80%;
+    margin: 60px auto;
+    height: 80vh;
+}
+
+.need-help-1, .need-help-2 {
+    width: 50%;
+}
+
+.need-help-1 p {
+    width: 60%;
+    margin: 50px 0 50px 80px;
+    font-size: 1.2rem;
+}
+
+.need-help-2 h2 {
+    font-size: 2.5rem;
+    margin-top: 50px;
+}
+
+.need-help-2 h3 {
+    color:  rgb(221, 34, 34);
+    font-size: 2rem;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+.best-quality {
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(191, 193, 196);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.best-quality-image {
+    width: 45%;
+}
+
+.best-quality-text {
+    width: 55%;
+    padding-right: 70px;
+    padding-top: 150px;
+}
+
+.best-quality-image img {
+    height: 100%;
+    width: 95%;
+
+}
+
+.best-quality-text h2 {
+    color: rgb(76, 76, 146);
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.best-quality-text button {
+    background-color: rgb(221, 34, 34);
+    color: white;
+    width: 160px;
+    height: 60px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 20px;
+}
+
+.best-quality-text hr {
+    border: 1px solid rgb(221, 34, 34);
+    height: 10px;
+    background-color: rgb(221, 34, 34);
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.best-quality-text p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.our-services {
+    height: 50vh;
+    width: 80%;
+    margin: 80px auto;
+}
+
+.each-service {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.painting-service, .electrical-service, .repair-service {
+    width: 30%;
+    line-height: 2rem;
+}
+
+.each-service img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+.each-service h3 {
+    font-size: 1.5rem;
+}
+
+.each-service p {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.our-services h2 {
+    font-size: 3.5rem;
+}
+
+.about-us {
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(71, 71, 161);
+}
+
+.about-us .wrapper{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 80px;
+    color: white;
+
+}
+.about-us-content {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 80px;
+}
+
+.plumbing-images, .plumbing-heading {
+    width: 50%;
+}
+
+.plumbing-heading {
+    color: white;
+}
+
+.plumbing-heading h3 {
+    font-size: 1.3rem;
+}
+
+.plumbing-heading p {
+    font-size: 6rem;
+}
+
+.plumbing-heading h4 {
+    font-size: 6.5rem;
+}
+
+.plumbing-images .top-images, .plumbing-images .bottom-images {
+    width: 100%;
+    height: 220px;
+}
+
+.top-images img, .bottom-images img {
+    width: 46%;
+    height: 210px;
+}
+
+.top-images {
+    margin-bottom: 40px;
+}
+
+.to-do-list {
+    width: 50%;
+    margin: 80px auto;
+    height: 45vh;
+    align-items: center;
+    line-height: 2.5rem;
+}
+
+.to-do-list h2 {
+    font-size: 2.2rem;
+}
+
+.to-do-list p {
+    font-size: 1.8rem;
+    text-align: center;
+}
+.to-do-list h2{
+    text-align: center;
+}
+.dummy {
+    margin-bottom: 20px;
+}
+
+.book-now button {
+    background-color: rgb(221, 34, 34);
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 20px;
+}
+
+.call-us button {
+    color: black;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.bookings {
+    gap: 5%;
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .landing-page {
+        height: 160vh;
+        padding: 180px 0 10px 50px;
+    }
+    .landing-text h3 {
+        font-size: 2.5rem;
+    }
+    
+    .landing-text h2 {
+        font-size: 4.5rem;
+    }
+    .landing-text hr {
+        height: 10px;
+    }
+    .landing-text{
+        width: 58%;
+    }
+    .how-we-help {
+        height: 160vh;
+    }
+    .how-we-help-content {
+        width: 80%;
+    }
+    .how-we-help-content p {
+        font-size: 1.2rem;
+    }
+
+    .need-help {
+        flex-direction: column;
+        height: 250vh;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .need-help-1, .need-help-2 {
+        width: 100%;
+        height: 50%;
+    }
+
+    .need-help img {
+        width: 90%;
+        height: 280px;
+    }
+
+    .need-help-1 p, .need-help-2 h2, .need-help-2 h3 {
+        width: 90%;
+        margin: 40px auto;
+        line-height: 1.5rem;
+    }
+
+    .need-help-2 h2 {
+        margin-top: 0px;
+    }
+
+    .best-quality {
+        height: 180vh;
+        padding-left: 80px;
+    }
+
+    .best-quality-image img {
+        width: 100%;
+    }
+
+    .best-quality-text, .best-quality-image {
+        width: 50%;
+    }
+
+    .best-quality-text {
+        padding-right: 10px;
+    }
+    .best-quality-text h2 {
+        font-size: 2.5rem;
+    }
+    .best-quality-text p {
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    .our-services {
+        height: 120vh;
+    }
+
+    .about-us {
+        height: 220vh;
+        width: 100%;
+        color: white;
+    }
+    .about-us-content {
+        flex-direction: column;
+    }
+    .plumbing-heading {
+        align-items: center;
+        margin-top: 10px;
+    }
+    .plumbing-heading p {
+        font-size: 3rem;
+    }
+    .plumbing-heading h4 {
+        font-size: 4rem;
+    }
+
+    .to-do-list {
+        height: 80vh;
+        width: 90%;
+    }
+    .plumbing-heading {
+        display: flex;
+        gap: 4%;
+    }
+
+    .plumbing-images {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+   
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+    .landing-page {
+        height: 200vh;
+        background-size: 100% 100%;
+        padding: 500px 10px 10px 50px;
+    }
+    .services-icons {
+        display: none;
+    }
+    .landing-text {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .landing-text h3 {
+        font-size: 2rem;
+    }
+    .landing-text h2 {
+        font-size: 3rem;
+    }
+    .landing-text hr {
+        width: 90%;
+    }
+    .how-we-help {
+        height: 180vh;
+    }
+    .need-help {
+        height: 300vh;
+        width: 90%;
+        flex-direction: column;
+    }
+    .need-help-1, .need-help-2 {
+        width: 100%;
+        height: 50%;
+    }
+    .need-help-1 img, .need-help-2 img {
+        width: 100%;
+    }
+    .need-help {
+        line-height: 1.8rem;
+    }
+    .need-help-1 p {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .best-quality {
+        height: 350vh;
+        width: 100%;
+        flex-direction: column;
+    }
+    .best-quality-image, .best-quality-text {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .best-quality-image img {
+        width: 100%;
+    }
+    .best-quality-text hr{
+        width: 100%;
+    }
+    .our-services {
+        height: 220vh;
+
+    }
+    .each-service {
+        flex-direction: column;
+        column-gap: 7%;
+    }
+    .painting-service, .electrical-service, .repair-service {
+        width: 100%;
+    }
+    .about-us {
+        height: 500vh;
+    }
+    .plumbing-heading h4 {
+        font-size: 3rem;
+    }
+    .plumbing-heading p {
+        font-size: 2.5rem;
+    }
+    .to-do-list {
+        width: 70%;
+        margin: 20px auto;
+    }
+    .bookings {
+        flex-direction: column;
+        column-gap: 7%;
+    }
+    .about-us-content {
+        flex-direction: column;
+        column-gap: 7%;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    .plumbing-heading, .plumbing-images {
+        width: 100%;
+    }
+    .top-images, .bottom-images {
+        flex-direction: column;
+        column-gap: 7%;
+        width: 100%;
+    }
+    
+
+}
