@@ -342,7 +342,7 @@ nav .menu-icon {
     gap: 5%;
 }
 
-@media (min-width: 480px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .landing-page {
         height: 160vh;
         padding: 180px 0 10px 50px;
@@ -461,7 +461,7 @@ nav .menu-icon {
    
 }
 
-@media (min-width: 0px) and (max-width: 480px) {
+@media (max-width: 480px) {
     .landing-page {
         height: 200vh;
         background-size: 100% 100%;
@@ -486,25 +486,60 @@ nav .menu-icon {
     }
     .how-we-help {
         height: 180vh;
+
     }
+    .how-we-help-content {
+        text-align: center;
+    }
+
+    .how-we-help-content p {
+        font-size: 1.6rem;
+    }
+    .how-we-help-content button {
+        margin-top: 35px;
+    }
+
     .need-help {
         height: 300vh;
-        width: 90%;
+        width: 80%;
         flex-direction: column;
+        margin-bottom: 10px;
     }
-    .need-help-1, .need-help-2 {
+    .need-help-1 {
         width: 100%;
-        height: 50%;
+        height: 55%;
     }
-    .need-help-1 img, .need-help-2 img {
+    .need-help-2 {
         width: 100%;
+        height: 45%;
     }
-    .need-help {
-        line-height: 1.8rem;
+    .need-help-1 img {
+        width: 100%;
+        height: 60%;
+        margin-bottom: 0;
+    }
+    .need-help-2 img {
+        width: 100%;
+        height: 65%;
+        margin-bottom: 0px;
     }
     .need-help-1 p {
-        margin: 0 auto;
+        margin: 50px auto;
         width: 80%;
+        line-height: 2rem;
+    }
+
+    .need-help-2 h2, .need-help-2 h3 {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .need-help-2 h2 {
+        font-size: 1.8rem;
+    }
+
+    .need-help-2 h3 {
+        font-size: 1.5rem;
     }
     .best-quality {
         height: 350vh;
@@ -513,6 +548,7 @@ nav .menu-icon {
     }
     .best-quality-image, .best-quality-text {
         width: 100%;
+        height: 50%;
         margin: 0 auto;
     }
     .best-quality-image img {
@@ -522,18 +558,50 @@ nav .menu-icon {
         width: 100%;
     }
     .our-services {
-        height: 220vh;
+        height: 250vh;
+        margin-bottom: 100px;
 
     }
     .each-service {
         flex-direction: column;
-        column-gap: 7%;
+        height: 100%;
     }
     .painting-service, .electrical-service, .repair-service {
         width: 100%;
+        height: 30%;
     }
     .about-us {
         height: 500vh;
+        width: 100%;
+    }
+    .wrapper {
+        height: 100%;
+        width: 100%;
+    }
+    .about-us-content {
+        height: 98%;
+        width: 100%;
+        flex-direction: column;
+        column-gap: 7%;
+    }
+    .plumbing-heading {
+        height: 5%;
+        width: 100%;
+    }
+    .plumbing-images {
+        height: 95%;
+        flex-direction: column;
+        width: 100%;
+        column-gap: 4%;
+    }
+    .plumbing-images .top-images, .plumbing-images .bottom-images {
+        height: 48%;
+        width: 100%;
+        column-gap: 4%;
+    }
+    .plumbing-images .top-images img, .plumbing-images .bottom-images img {
+        height: 48%;
+        width: 100%;
     }
     .plumbing-heading h4 {
         font-size: 3rem;
@@ -543,22 +611,17 @@ nav .menu-icon {
     }
     .to-do-list {
         width: 70%;
-        margin: 20px auto;
+        margin: 50px auto;
     }
     .bookings {
         flex-direction: column;
         column-gap: 7%;
     }
-    .about-us-content {
-        flex-direction: column;
-        column-gap: 7%;
-    }
-    .wrapper {
-        width: 100%;
-    }
-    .plumbing-heading, .plumbing-images {
-        width: 100%;
-    }
+  
+   .to-do-list p {
+       font-size: 1.8rem;
+       line-height: 2.8rem;
+   }
     .top-images, .bottom-images {
         flex-direction: column;
         column-gap: 7%;
